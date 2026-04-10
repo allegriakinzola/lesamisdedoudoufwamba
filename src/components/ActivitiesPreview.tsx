@@ -35,6 +35,7 @@ const activities = [
     description: "Création d'espaces de dialogue entre les citoyens pour une démocratie participative.",
     color: "red" as const,
   },
+  
   {
     icon: <ShieldCheck size={28} />,
     title: "Soutien aux Réformes",
