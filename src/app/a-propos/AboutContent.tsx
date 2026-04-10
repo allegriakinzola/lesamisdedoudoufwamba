@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Target, Eye, Handshake, Users, Award, MapPin } from "lucide-react";
+import Image from "next/image";
 
 const team = [
   {
@@ -103,7 +104,14 @@ export default function AboutContent() {
               className="relative"
             >
               <div className="aspect-square rounded-2xl bg-gradient-to-br from-rdc-blue-light via-white to-rdc-yellow-light border border-gray-100 flex items-center justify-center p-8">
-                <div className="text-center">
+                <Image  
+                  src="/philippe.jpg"
+                  alt="About Us"
+                  width={400}
+                  height={400}
+                  className="w-full h-full object-cover"
+                />
+                {/* <div className="text-center">
                   <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-br from-rdc-blue via-rdc-yellow to-rdc-red flex items-center justify-center shadow-xl">
                     <span className="text-white font-bold text-4xl">ADF</span>
                   </div>
@@ -113,7 +121,7 @@ export default function AboutContent() {
                     <MapPin size={14} />
                     Masina, Tshangu, Kinshasa
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-rdc-yellow/30 rounded-2xl -z-10" />
               <div className="absolute -top-4 -left-4 w-32 h-32 bg-rdc-blue/10 rounded-2xl -z-10" />
