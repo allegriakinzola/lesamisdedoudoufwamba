@@ -12,12 +12,14 @@ import {
   Menu,
   X,
   ChevronRight,
+  CalendarDays,
 } from "lucide-react";
 
 const sidebarLinks = [
   { href: "/admin", label: "Tableau de bord", icon: LayoutDashboard },
   { href: "/admin/articles", label: "Articles", icon: FileText },
   { href: "/admin/articles/nouveau", label: "Nouvel article", icon: PlusCircle },
+  { href: "/admin/evenements", label: "Événements", icon: CalendarDays },
   { href: "/admin/messages", label: "Messages", icon: Mail },
 ];
 

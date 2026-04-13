@@ -15,6 +15,7 @@ export default function ActivitesPage() {
         title="Nos Activités"
         subtitle="Découvrez nos domaines d'intervention et les actions concrètes que nous menons pour le développement communautaire."
         accent="Ce que nous faisons"
+        backgroundImage="/imagedoudou.jpg"
       />
       <ActivitiesContent />
     </>

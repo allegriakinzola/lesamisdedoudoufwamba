@@ -20,7 +20,7 @@ export default function AboutPreview() {
           >
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-rdc-blue-light to-rdc-yellow-light">
               <Image
-                src="/imagedoudou.jpg"
+                src="/doudou.jpg"
                 alt="About Us"
                 width={800}
                 height={600}
